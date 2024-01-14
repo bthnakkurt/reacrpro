@@ -1,0 +1,40 @@
+.Yerler {
+    text-align: left;
+}
+
+.Yerler-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+.repoyagonderis {
+    margin-left: 0%;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #080404;
+    border-radius: 5px;
+    background-color: #292b30;
+    text-decoration: none;
+    color: #fff;
+  }
+
+.kartfoto {
+    width: 100%;
+    margin-top: 5%;
+    height: 100%;
+    border-radius: 5px;
+  }
+
+.bvaslik {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+  }
