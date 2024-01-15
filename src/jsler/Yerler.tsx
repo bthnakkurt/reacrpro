@@ -17,8 +17,8 @@ function Yerler() {
 
         <div className="karticin">
           
-        <Link to="/Bakiye" className="kartlink"> <img src={kart} className="kartfoto" /> </Link>
-        <Link to="/Bakiye" className="kartlink">  <h3 className="kartadi">Karta Bak</h3> </Link>
+        <Link to="/Kart" className="kartlink"> <img src={kart} className="kartfoto" /> </Link>
+        <Link to="/Kart" className="kartlink">  <h3 className="kartadi">Karta Bak</h3> </Link>
         
         </div>
       </header>

@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import '../cssler/App.css';
 import './Yerler';
 import Yerler from './Yerler';
-import Bakiye from './Bakiye';
+import Kart from './Kart';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <header className="App-header">
       <Routes>
         <Route path="/" element={<Yerler />} />
-        <Route path="/Bakiye" element={<Bakiye />} />
+        <Route path="/Kart" element={<Kart />} />
       </Routes>
       </header>
 

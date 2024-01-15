@@ -1,0 +1,71 @@
+/*Div ve Headerler*/
+.Kart {
+    text-align: center;
+}
+.Kart-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    color: white;
+}
+.ustbutonlar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.inputicin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Butonlar*/
+.geributon {
+    margin-left: 0%;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #080404;
+    border-radius: 5px;
+    background-color: #292b30;
+    text-decoration: none;
+    color: #fff;
+}
+.ileributon {
+    margin-left: 0%;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #080404;
+    border-radius: 5px;
+    background-color: #292b30;
+    text-decoration: none;
+    color: #fff;
+}
+.kartara {
+    margin-top: 2%;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #080404;
+    border-radius: 5px;
+    background-color: #292b30;
+    text-decoration: none;
+    color: #fff;
+}
+
+/*input*/
+.kartinput {
+    margin-left: 0%;
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #080404;
+    border-radius: 5px;
+    background-color: #292b30;
+    text-decoration: none;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
