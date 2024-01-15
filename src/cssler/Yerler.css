@@ -34,7 +34,7 @@
     font-size: 50px;
   }
 .kartadi {
-    margin-left: 5%;
+    margin-right: 100%;
     text-align: center;
     font-size: 30px;
   }
@@ -50,4 +50,7 @@
     text-decoration: none;
     color: #fff;
   }
-
+.kartlink {
+    text-decoration: none;
+    color: #fff;
+  }

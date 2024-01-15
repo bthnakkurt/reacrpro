@@ -1,7 +1,8 @@
-/*kütüphane alma*/
+/*kütüphane al*/
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-/*compenent alma*/
+import { Link } from 'react-router-dom';
+
+/*compenent al*/
 import '../cssler/Yerler.css';
 import kart from '../res/kart.png';
 
@@ -15,8 +16,10 @@ function Yerler() {
         <h1 className="baslik">Seç:</h1>
 
         <div className="karticin">
-        <img src={kart} className="kartfoto" />
-        <h3 className="kartadi">Karta Bak</h3>
+          
+        <Link to="/Bakiye" className="kartlink"> <img src={kart} className="kartfoto" /> </Link>
+        <Link to="/Bakiye" className="kartlink">  <h3 className="kartadi">Karta Bak</h3> </Link>
+        
         </div>
       </header>
     </div>
