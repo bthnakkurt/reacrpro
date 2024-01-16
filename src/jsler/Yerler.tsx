@@ -1,7 +1,6 @@
 /*kütüphane al*/
 import React from 'react';
 import { Link } from 'react-router-dom';
-
 /*compenent al*/
 import '../cssler/Yerler.css';
 import kart from '../res/kart.png';

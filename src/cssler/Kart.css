@@ -27,7 +27,7 @@
 /*Butonlar*/
 .geributon {
     margin-left: 0%;
-    width: 50%;
+    width: 100%;
     padding: 10px;
     border: 1px solid #080404;
     border-radius: 5px;
@@ -35,7 +35,7 @@
     text-decoration: none;
     color: #fff;
 }
-.ileributon {
+.kartikaydet {
     margin-left: 0%;
     width: 50%;
     padding: 10px;
@@ -68,4 +68,10 @@
     color: #fff;
     justify-content: center;
     align-items: center;
+}
+
+.geributonlink {
+    text-decoration: none;
+    color: #fff;
+    width: 50%;
 }
