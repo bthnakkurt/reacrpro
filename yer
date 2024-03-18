@@ -1,9 +1,10 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
 
 import '../cssler/Kart.css';
 
 function Kart() {
+
   return (
     <div className="Kart">
       <header className="Kart-header">
@@ -25,8 +26,14 @@ function Kart() {
             type="number"
             placeholder="Kartınızı giriniz"
           />
-
           <button className="kartara">Arat</button>
+        </div>
+        <div className='ciktiyeri'>
+          <h3>Bakiye: $MevcutBakiye</h3>
+          <h3>Son Kullanım Tarihi: $SonIslemTarihi</h3>
+          <h3>Son Harcanan Tutar: $SonHarcananTutar</h3>
+          <h3>Son Yükleme Tarihi: $SonYuklemeTarihi</h3>
+          <h3>Son Yüklenen Miktar: $SonYuklenenTutar</h3>
         </div>
       </header>
     </div>
@@ -34,3 +41,8 @@ function Kart() {
 }
 
 export default Kart;
+
+
+
+
+

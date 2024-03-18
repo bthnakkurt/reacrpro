@@ -55,7 +55,11 @@
     text-decoration: none;
     color: #fff;
 }
-
+.geributonlink {
+    text-decoration: none;
+    color: #fff;
+    width: 50%;
+}
 /*input*/
 .kartinput {
     margin-left: 0%;
@@ -70,8 +74,9 @@
     align-items: center;
 }
 
-.geributonlink {
-    text-decoration: none;
-    color: #fff;
-    width: 50%;
+.ciktiyeri {
+    margin: 20;
+    border-color: #fff;
+    border-width: 1;
+    font-size: 20;
 }

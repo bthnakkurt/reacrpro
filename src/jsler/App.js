@@ -1,7 +1,5 @@
-/*Kütühane al */
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-/*Component al */
 import '../cssler/App.css';
 import './Yerler';
 import Yerler from './Yerler';
