@@ -46,3 +46,17 @@ export default Kart;
 
 
 
+
+
+try {
+        const response = await fetch('https://openapi.izmir.bel.tr/api/iztek/bakiyesorgulama/{kartno}');
+        if (!response.ok) {
+          throw new Error('API\'den veri alınamadı.');
+        }
+        const data = await response.json();
+        setUlasimKartiBilgileri(data);
+      } catch (error) {
+        console.error('Hata:', error);
+      }
+
+      
